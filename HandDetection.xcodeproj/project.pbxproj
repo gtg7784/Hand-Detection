@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBEE28E125ACB54E00D231BF /* HandDetectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEE28E025ACB54E00D231BF /* HandDetectionApp.swift */; };
+		BBEE28E325ACB54E00D231BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEE28E225ACB54E00D231BF /* ContentView.swift */; };
+		BBEE28E525ACB55000D231BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBEE28E425ACB55000D231BF /* Assets.xcassets */; };
+		BBEE28E825ACB55000D231BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBEE28E725ACB55000D231BF /* Preview Assets.xcassets */; };
+		BBEE28F325ACB55000D231BF /* HandDetectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEE28F225ACB55000D231BF /* HandDetectionTests.swift */; };
+		BBEE28FE25ACB55000D231BF /* HandDetectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEE28FD25ACB55000D231BF /* HandDetectionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBEE28EF25ACB55000D231BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBEE28D525ACB54E00D231BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBEE28DC25ACB54E00D231BF;
+			remoteInfo = HandDetection;
+		};
+		BBEE28FA25ACB55000D231BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBEE28D525ACB54E00D231BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBEE28DC25ACB54E00D231BF;
+			remoteInfo = HandDetection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBEE28DD25ACB54E00D231BF /* HandDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEE28E025ACB54E00D231BF /* HandDetectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandDetectionApp.swift; sourceTree = "<group>"; };
+		BBEE28E225ACB54E00D231BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BBEE28E425ACB55000D231BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBEE28E725ACB55000D231BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBEE28E925ACB55000D231BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBEE28EE25ACB55000D231BF /* HandDetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandDetectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEE28F225ACB55000D231BF /* HandDetectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandDetectionTests.swift; sourceTree = "<group>"; };
+		BBEE28F425ACB55000D231BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBEE28F925ACB55000D231BF /* HandDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEE28FD25ACB55000D231BF /* HandDetectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandDetectionUITests.swift; sourceTree = "<group>"; };
+		BBEE28FF25ACB55000D231BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBEE28DA25ACB54E00D231BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEE28EB25ACB55000D231BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEE28F625ACB55000D231BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBEE28D425ACB54E00D231BF = {
+			isa = PBXGroup;
+			children = (
+				BBEE28DF25ACB54E00D231BF /* HandDetection */,
+				BBEE28F125ACB55000D231BF /* HandDetectionTests */,
+				BBEE28FC25ACB55000D231BF /* HandDetectionUITests */,
+				BBEE28DE25ACB54E00D231BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBEE28DE25ACB54E00D231BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBEE28DD25ACB54E00D231BF /* HandDetection.app */,
+				BBEE28EE25ACB55000D231BF /* HandDetectionTests.xctest */,
+				BBEE28F925ACB55000D231BF /* HandDetectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBEE28DF25ACB54E00D231BF /* HandDetection */ = {
+			isa = PBXGroup;
+			children = (
+				BBEE28E025ACB54E00D231BF /* HandDetectionApp.swift */,
+				BBEE28E225ACB54E00D231BF /* ContentView.swift */,
+				BBEE28E425ACB55000D231BF /* Assets.xcassets */,
+				BBEE28E925ACB55000D231BF /* Info.plist */,
+				BBEE28E625ACB55000D231BF /* Preview Content */,
+			);
+			path = HandDetection;
+			sourceTree = "<group>";
+		};
+		BBEE28E625ACB55000D231BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BBEE28E725ACB55000D231BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBEE28F125ACB55000D231BF /* HandDetectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBEE28F225ACB55000D231BF /* HandDetectionTests.swift */,
+				BBEE28F425ACB55000D231BF /* Info.plist */,
+			);
+			path = HandDetectionTests;
+			sourceTree = "<group>";
+		};
+		BBEE28FC25ACB55000D231BF /* HandDetectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBEE28FD25ACB55000D231BF /* HandDetectionUITests.swift */,
+				BBEE28FF25ACB55000D231BF /* Info.plist */,
+			);
+			path = HandDetectionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBEE28DC25ACB54E00D231BF /* HandDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBEE290225ACB55100D231BF /* Build configuration list for PBXNativeTarget "HandDetection" */;
+			buildPhases = (
+				BBEE28D925ACB54E00D231BF /* Sources */,
+				BBEE28DA25ACB54E00D231BF /* Frameworks */,
+				BBEE28DB25ACB54E00D231BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandDetection;
+			productName = HandDetection;
+			productReference = BBEE28DD25ACB54E00D231BF /* HandDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBEE28ED25ACB55000D231BF /* HandDetectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBEE290525ACB55100D231BF /* Build configuration list for PBXNativeTarget "HandDetectionTests" */;
+			buildPhases = (
+				BBEE28EA25ACB55000D231BF /* Sources */,
+				BBEE28EB25ACB55000D231BF /* Frameworks */,
+				BBEE28EC25ACB55000D231BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBEE28F025ACB55000D231BF /* PBXTargetDependency */,
+			);
+			name = HandDetectionTests;
+			productName = HandDetectionTests;
+			productReference = BBEE28EE25ACB55000D231BF /* HandDetectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBEE28F825ACB55000D231BF /* HandDetectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBEE290825ACB55100D231BF /* Build configuration list for PBXNativeTarget "HandDetectionUITests" */;
+			buildPhases = (
+				BBEE28F525ACB55000D231BF /* Sources */,
+				BBEE28F625ACB55000D231BF /* Frameworks */,
+				BBEE28F725ACB55000D231BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBEE28FB25ACB55000D231BF /* PBXTargetDependency */,
+			);
+			name = HandDetectionUITests;
+			productName = HandDetectionUITests;
+			productReference = BBEE28F925ACB55000D231BF /* HandDetectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBEE28D525ACB54E00D231BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					BBEE28DC25ACB54E00D231BF = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					BBEE28ED25ACB55000D231BF = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = BBEE28DC25ACB54E00D231BF;
+					};
+					BBEE28F825ACB55000D231BF = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = BBEE28DC25ACB54E00D231BF;
+					};
+				};
+			};
+			buildConfigurationList = BBEE28D825ACB54E00D231BF /* Build configuration list for PBXProject "HandDetection" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBEE28D425ACB54E00D231BF;
+			productRefGroup = BBEE28DE25ACB54E00D231BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBEE28DC25ACB54E00D231BF /* HandDetection */,
+				BBEE28ED25ACB55000D231BF /* HandDetectionTests */,
+				BBEE28F825ACB55000D231BF /* HandDetectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBEE28DB25ACB54E00D231BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEE28E825ACB55000D231BF /* Preview Assets.xcassets in Resources */,
+				BBEE28E525ACB55000D231BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEE28EC25ACB55000D231BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEE28F725ACB55000D231BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBEE28D925ACB54E00D231BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEE28E325ACB54E00D231BF /* ContentView.swift in Sources */,
+				BBEE28E125ACB54E00D231BF /* HandDetectionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEE28EA25ACB55000D231BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEE28F325ACB55000D231BF /* HandDetectionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEE28F525ACB55000D231BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEE28FE25ACB55000D231BF /* HandDetectionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBEE28F025ACB55000D231BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBEE28DC25ACB54E00D231BF /* HandDetection */;
+			targetProxy = BBEE28EF25ACB55000D231BF /* PBXContainerItemProxy */;
+		};
+		BBEE28FB25ACB55000D231BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBEE28DC25ACB54E00D231BF /* HandDetection */;
+			targetProxy = BBEE28FA25ACB55000D231BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BBEE290025ACB55100D231BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBEE290125ACB55100D231BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBEE290325ACB55100D231BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HandDetection/Preview Content\"";
+				DEVELOPMENT_TEAM = P7W89LMW2Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HandDetection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.gtg7784.HandDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBEE290425ACB55100D231BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HandDetection/Preview Content\"";
+				DEVELOPMENT_TEAM = P7W89LMW2Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HandDetection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.gtg7784.HandDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BBEE290625ACB55100D231BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7W89LMW2Y;
+				INFOPLIST_FILE = HandDetectionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.gtg7784.HandDetectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandDetection.app/HandDetection";
+			};
+			name = Debug;
+		};
+		BBEE290725ACB55100D231BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7W89LMW2Y;
+				INFOPLIST_FILE = HandDetectionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.gtg7784.HandDetectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandDetection.app/HandDetection";
+			};
+			name = Release;
+		};
+		BBEE290925ACB55100D231BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7W89LMW2Y;
+				INFOPLIST_FILE = HandDetectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.gtg7784.HandDetectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HandDetection;
+			};
+			name = Debug;
+		};
+		BBEE290A25ACB55100D231BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7W89LMW2Y;
+				INFOPLIST_FILE = HandDetectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.gtg7784.HandDetectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HandDetection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBEE28D825ACB54E00D231BF /* Build configuration list for PBXProject "HandDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEE290025ACB55100D231BF /* Debug */,
+				BBEE290125ACB55100D231BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBEE290225ACB55100D231BF /* Build configuration list for PBXNativeTarget "HandDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEE290325ACB55100D231BF /* Debug */,
+				BBEE290425ACB55100D231BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBEE290525ACB55100D231BF /* Build configuration list for PBXNativeTarget "HandDetectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEE290625ACB55100D231BF /* Debug */,
+				BBEE290725ACB55100D231BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBEE290825ACB55100D231BF /* Build configuration list for PBXNativeTarget "HandDetectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEE290925ACB55100D231BF /* Debug */,
+				BBEE290A25ACB55100D231BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBEE28D525ACB54E00D231BF /* Project object */;
+}
